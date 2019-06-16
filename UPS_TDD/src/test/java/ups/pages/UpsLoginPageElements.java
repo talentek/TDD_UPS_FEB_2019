@@ -10,7 +10,6 @@ public class UpsLoginPageElements {
 
 	public UpsLoginPageElements(WebDriver driver) {
 		this.driver = driver;
-
 	}
 
 	public WebElement userID() {

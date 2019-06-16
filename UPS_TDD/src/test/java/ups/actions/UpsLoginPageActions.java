@@ -9,23 +9,21 @@ public class UpsLoginPageActions {
 
 	public UpsLoginPageActions(WebDriver driver) {
 		this.loginPage = new UpsLoginPageElements(driver);
-
 	}
 
-	public void user() {
+	public void userID() {
 		loginPage.userID().sendKeys("Hello");
 	}
 
-	public void pass() {
+	public void password() {
 		loginPage.password().sendKeys("world");
-
 	}
 
 	public void login() {
 		loginPage.login().click();
 	}
 
-	public boolean msg() {
+	public boolean loginErrormsg() {
 		boolean str = loginPage.errorMsg().isDisplayed();
 		return str;
 	}
