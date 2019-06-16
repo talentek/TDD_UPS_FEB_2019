@@ -25,7 +25,6 @@
 			<version>3.141.59</version>
 		</dependency>
 
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -52,7 +51,7 @@
 				<version>2.21.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>upsSanity.xml</suiteXmlFile>
+						<suiteXmlFile>upsSanityTest.xml</suiteXmlFile>
 						<suiteXmlFile>upsCrossBrowserTest.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>

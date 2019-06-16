@@ -8,10 +8,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import ups.actions.UpsLoginPageActions;
-import ups.driver.UpsCrossBrowserDriver;
 
-public class UpsCrossBrowserTest extends UpsCrossBrowserDriver {
+import ups.actions.UpsLoginPageActions;
+import ups.driver.UpsDriver;
+
+public class UpsCrossBrowserTest extends UpsDriver {
 	WebDriver driver;
 	UpsLoginPageActions upsLoginTest;
 	public static final String URL = "https://www.ups.com/lasso/login";

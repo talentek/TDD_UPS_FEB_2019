@@ -1,71 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="UPS CrossBrowser TestSuite" duration-ms="20288" started-at="2019-06-16T07:04:49Z" finished-at="2019-06-16T07:05:09Z">
+  <suite name="Default suite" duration-ms="13100" started-at="2019-06-16T10:08:44Z" finished-at="2019-06-16T10:08:57Z">
     <groups>
-      <group name="funtest">
-        <method signature="UpsCrossBrowserTest.funLoginMsg()[pri:1, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="funLoginMsg" class="ups.test.UpsCrossBrowserTest"/>
-        <method signature="UpsCrossBrowserTest.funLoginMsg()[pri:1, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="funLoginMsg" class="ups.test.UpsCrossBrowserTest"/>
-      </group> <!-- funtest -->
-      <group name="upstest">
-        <method signature="UpsCrossBrowserTest.verifyLoginError()[pri:2, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="verifyLoginError" class="ups.test.UpsCrossBrowserTest"/>
-        <method signature="UpsCrossBrowserTest.verifyLoginError()[pri:2, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="verifyLoginError" class="ups.test.UpsCrossBrowserTest"/>
-      </group> <!-- upstest -->
     </groups>
-    <test name="ChromeTest" duration-ms="13379" started-at="2019-06-16T07:04:49Z" finished-at="2019-06-16T07:05:02Z">
-      <class name="ups.test.UpsCrossBrowserTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="9637" started-at="2019-06-16T07:04:49Z" finished-at="2019-06-16T07:04:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="13100" started-at="2019-06-16T10:08:44Z" finished-at="2019-06-16T10:08:57Z">
+      <class name="multi.windows.test.MultiWIndows">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:multi.windows.test.MultiWIndows@224edc67]" name="beforeClass" is-config="true" duration-ms="8600" started-at="2019-06-16T10:08:44Z" finished-at="2019-06-16T10:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="funLoginMsg()[pri:1, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="funLoginMsg" duration-ms="3" started-at="2019-06-16T07:04:59Z" finished-at="2019-06-16T07:04:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funLoginMsg -->
-        <test-method status="PASS" signature="verifyLoginError()[pri:2, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="verifyLoginError" duration-ms="2967" started-at="2019-06-16T07:04:59Z" finished-at="2019-06-16T07:05:02Z">
+        <test-method status="PASS" signature="verifyLoginError()[pri:0, instance:multi.windows.test.MultiWIndows@224edc67]" name="verifyLoginError" duration-ms="3854" started-at="2019-06-16T10:08:52Z" finished-at="2019-06-16T10:08:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ups.test.UpsCrossBrowserTest@59fa1d9b]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-06-16T07:05:02Z" finished-at="2019-06-16T07:05:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:multi.windows.test.MultiWIndows@224edc67]" name="tearDown" is-config="true" duration-ms="629" started-at="2019-06-16T10:08:56Z" finished-at="2019-06-16T10:08:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ups.test.UpsCrossBrowserTest -->
-    </test> <!-- ChromeTest -->
-    <test name="FirefoxTest" duration-ms="20288" started-at="2019-06-16T07:04:49Z" finished-at="2019-06-16T07:05:09Z">
-      <class name="ups.test.UpsCrossBrowserTest">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="beforeClass" is-config="true" duration-ms="16659" started-at="2019-06-16T07:04:49Z" finished-at="2019-06-16T07:05:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="funLoginMsg()[pri:1, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="funLoginMsg" duration-ms="2" started-at="2019-06-16T07:05:06Z" finished-at="2019-06-16T07:05:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- funLoginMsg -->
-        <test-method status="PASS" signature="verifyLoginError()[pri:2, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="verifyLoginError" duration-ms="1365" started-at="2019-06-16T07:05:06Z" finished-at="2019-06-16T07:05:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginError -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ups.test.UpsCrossBrowserTest@53b32d7]" name="tearDown" is-config="true" duration-ms="2252" started-at="2019-06-16T07:05:07Z" finished-at="2019-06-16T07:05:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- ups.test.UpsCrossBrowserTest -->
-    </test> <!-- FirefoxTest -->
-  </suite> <!-- UPS CrossBrowser TestSuite -->
+      </class> <!-- multi.windows.test.MultiWIndows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
